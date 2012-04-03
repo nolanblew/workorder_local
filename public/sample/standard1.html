@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Sample Form 1</title>
+	<link rel="stylesheet" href="standard.css" />
+</head>
+
+<body>
+	<div class="main_body">
+    
+    	<div class="login_panel">
+        	<a href="#" class="login_button">Logout</a>
+        	<a href="#" class="login_button">Account Settings</a>
+        	<a href="#" class="login_button">Help</a>
+        </div>
+    	<div class="main_heading"></div>
+        <div class="section_panel">
+        	<span class="section_button" style="color:#666666;">Create Request</span>
+        	<a href="#" class="section_button">Admin Panel</a>
+        </div>
+        
+        <h1>Submit Workorder</h1>
+        <div class="error_panel">Error! The following fields were not filled in correctly:<br />
+        <ul>
+        	<li>Description is not filled in</li>
+            <li>Request space too vague</li>
+        </ul>
+        </div>
+        
+        <div class="instruction_panel">Fill out the workorder to the best of your ability.</div>
+        
+        <form class="main_form" action="#">
+        	<table>
+            	<tr>
+            		<td>
+                    	Title:
+                    </td>
+                    <td>
+                    	<input type="text" name="title" />
+                    </td>
+            	</tr>
+            	<tr>
+            	  <td>Description: </td>
+            	  <td><textarea name="description" id="description" cols="45" rows="5"></textarea></td>
+          	  </tr>
+            	<tr>
+            	  <td>Area:</td>
+            	  <td><select name="area" id="area">
+            	    <option value="winter">Winter Hall</option>
+            	    <option value="adams">Adams Center</option>
+            	    <option value="clark">Clark Hall</option>
+            	    <option value="page">Page Hall</option>
+          	      </select></td>
+          	  </tr>
+            	<tr>
+            	  <td>Specific Location: </td>
+            	  <td><input type="text" name="specific_loc" id="specific_loc" /></td>
+          	  </tr>
+            </table> <br />
+            <input type="submit" value="Next -->" />
+        </form>
+    <div class="footer_panel">
+    	&copy; 2012 Nolan Blew, Mason Neal, Sierra Garrett :)
+    </div>
+    </div>
+</body>
+</html>

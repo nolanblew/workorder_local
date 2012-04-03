@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Pretty much just the background. */
+body {
+	background-color:#C00;
+	margin: 0px 0px 0px 0px;
+}
+
+
+/* This is the main body of the forum. Make it centered and maybe a different background color than the background (like white, and background red) */
+.main_body {
+	
+	width: 750px;
+	position:relative;
+	margin: 0px auto 10px auto;
+	
+	text-align:center;
+	background-color:#FFFFFF;	
+}
+
+/* The main title of the form */
+.main_heading {
+	text-align:center;
+	font-style:normal;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:28px;
+	color:#009900;
+	
+	background-image:url(header.jpg);
+	height:150px;
+}
+
+.header_image {
+	width:750px;
+	margin:0px;
+	padding:0px;
+	
+}
+
+/* The main title of this current section */
+.section_heading {
+	font-style:normal;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:28px;
+	color:#009900;
+	
+}
+
+/* Section to choose admin or standard */
+.section_button {
+	
+}
+
+/* The style for the main forum */
+.main_form {
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:80px;	
+	text-align:center;
+	font-style:normal;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:14px;
+	color:#009900;
+	background-color:#FF9;
+}
+
+/* The button panel (background) for signout, options, login, ect at the top */
+.login_panel {
+	background-color:#F3C525;
+	text-align:right;	
+	padding-right: 18px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.login_panel a:link {
+	color:#093;
+	text-decoration:none;
+}
+
+.login_panel a:visited {
+	text-decoration:none;
+}
+
+.login_panel a:hover {	
+	color:#FF0000;
+}
+
+/* The individual button style for signout, options, login, ect at the top */
+.login_button {
+	margin-left:7px;
+	margin-right:7px;
+	text-align:center;
+}
+
+
+/* The style of the instructions (start by making italic) */
+.instruction_panel {
+	font-style: italic;
+	font-size: 18px;
+	font-family:"Courier New", Courier, monospace;
+	line-height: normal;
+}
+
+/* The style (including border and background - make it a nice red color) for error messages if they don't fill in the form correctly. */
+/* Don't work on this too hard as this is just for our sample, when we use rails they have a default template for this. */
+.error_panel {
+	color:#FF0000;
+	font-style:normal;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+
+
+.section_panel {
+	margin_top:30px;
+	margin-bottom:5px;
+	background-color:#F3C525;
+}
+
+.footer_panel {
+	
+}
